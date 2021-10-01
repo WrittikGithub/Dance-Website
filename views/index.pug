@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+  title Wriitik Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      div#logo
+        img(src="/static/logo.png")
+        |WrittikDA 
+      ul 
+        //- div#logo 
+        //-   img(src="/static/img/logo3.jpg") 
+        //-   |WrittikDA
+        li #[a(href="/") Home ] 
+        li #[a(href="/") About Us ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Contact Us ]
+
+    section#introSection  
+      div Welcome to Writtik's dance academy  
+      div.write Eat Dance Sleep Repeat 
+
+    section#missionSection 
+      section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorSection 
+      h2 Our Sponsor 
+      div#sponsors
+       img(src="/static/sponsorIMG/logo1c.png", alt="Error Image", Class="spimg")
+       img(src="/static/sponsorIMG/logo2c.png", alt="Error Image", Class="spimg")
+       img(src="/static/sponsorIMG/logo3c.png", alt="Error Image", Class="spimg")
+       img(src="/static/sponsorIMG/logo4c.jpg", alt="Error Image", Class="spimg")
+       img(src="/static/sponsorIMG/logo5c.png", alt="Error Image", Class="spimg")
+    footer#footer 
+      
+        | Copyright © 2021 WrittikDanceAcademy.com | All Rights Reserved   
+    script
+     include ../static/index.js

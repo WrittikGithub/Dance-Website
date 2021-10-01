@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+} 
+#navbar{ 
+   background-color: rgb(179, 97, 97);
+    padding: 21px 15px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none; 
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 40px;
+    font-size: 1.5rem;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    color: white;
+    align-items: center;
+    /* margin: 0 14px; */
+    font-size: 25px;
+    /* margin-right: 40px; */
+    height: 70px;
+}
+#logo img{
+    height: 72px;
+    filter: invert(100%);
+}
+#navbar li a:hover{
+    color: rgb(165, 156, 241);
+    text-decoration: none;
+    padding: 13px 40px;
+    font-size: 1.5rem;
+}
+
+#introSection{
+  height: 400px;
+  /* background-color: blue; */
+  background: center / cover no-repeat url('/static/bg.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(12, 14, 15);
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+#introSection div.write{
+  font-size: 45px;
+}
+#missionSection{
+    text-align: center;
+    height: 306px;
+    background-color: rgb(155, 133, 133);
+    
+}
+#missionSection h3{
+    font-family: 'Courgette', cursive;
+}
+#missionSection h2{
+    padding-top:23px ;
+    color: rgb(230, 230, 214);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+.card{
+    border: 2px solid rgb(129, 100, 100);
+    border-radius:10px;
+    width: 30%;
+    margin: 27px 10px;
+    height: 177px;
+    display: inline-block;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+
+
+
+#sponsorSection{
+    text-align: center;
+   height: 264px;
+   background-color: red;
+}
+#sponsorSection h2{
+    padding-top:23px ;
+    color: beige;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+#sponsors{
+    height: 126px;
+    max-width: 1159px;
+    margin: auto;
+}
+.spimg{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 17px;
+}

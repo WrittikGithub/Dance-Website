@@ -1,0 +1,22 @@
+//- layout.pug
+html
+  head
+    title Wriitik Dance Academy 
+    block scripts 
+    block style 
+  body 
+        nav#navbar 
+           div#logo
+              img(src="/static/logo.png")
+              |WrittikDA
+           ul 
+        
+               li #[a(href="/") Home ] 
+               li #[a(href="/") About Us ]
+               li #[a(href="/") Services ]
+               li #[a(href="/") Class Info ]
+               li #[a(href="/contact") Contact Us ]
+      
+        block content
+        footer#footer 
+           | Copyright © 2021 WrittikDanceAcademy.com | All Rights Reserved 
